@@ -6,7 +6,7 @@ requires one to provide:
 1. Files to be queried, i.e., the database/dataset, under the folder name "Dataset". Create this folder and store the PDFs that should be queried
 2. Create a file "key.txt" with all the AZURE OPEN AI API endpoint information. An example is:                           
  `openai.api_base= <Your API Endpoint>                                                                                 
- API KEY= <Your API KEY>                                   
+ API KEY= <Your API KEY>                                                                              
  deployment_name_text= <Deployed Generation Model>                                   
  deployment_name_embed= <Deployed Embedding Generator Model>
 `
