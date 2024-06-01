@@ -4,7 +4,7 @@
 This repository consists of a Jupyter notebook that allows one to use AZURE OPEN AI API endpoints for text generation and embedding with Retrieval Augmented Generation pipeline. The implementation 
 requires one to provide: 
 1. Files to be queried, i.e., the database/dataset, under the folder name "Dataset". Create this folder and store the PDFs that should be queried
-2. Create a file "key.txt" with all the AZURE OPEN AI API endpoint information. An example is: 
+2. Create a file "key.txt" with all the AZURE OPEN AI API endpoint information. An example is:                           
  `openai.api_base= <Your API Endpoint>                                      
  API KEY= <Your API KEY>                                   
  deployment_name_text= <Deployed Generation Model>                                   
