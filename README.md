@@ -5,10 +5,10 @@ This repository consists of a Jupyter notebook that allows one to use AZURE OPEN
 requires one to provide: 
 1. Files to be queried, i.e., the database/dataset, under the folder name "Dataset". Create this folder and store the PDFs that should be queried
 2. Create a file "key.txt" with all the AZURE OPEN AI API endpoint information. An example is:                           
- openai.api_base= <Your API Endpoint>                                                                                 
- API KEY= <Your API KEY>                                                                              
- deployment_name_text= <Deployed Generation Model>                                                 
- deployment_name_embed= <Deployed Embedding Generator Model>
+ openai.api_base= **Your API Endpoint**                                                                                 
+ API KEY= **Your API KEY**                                                                              
+ deployment_name_text= **Deployed Generation Model**                                                 
+ deployment_name_embed= **Deployed Embedding Generator Model**
 
 3. Create a folder with the name "Embed" to hold the generated embeddings so that new embeddings do not need to be generated again (some form of persistency). Note that, the stored database needs to 
 be deleted whenever a new file is added. This limitation will be resolved in a future iteration. 
