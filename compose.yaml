@@ -1,0 +1,9 @@
+services:
+  app:
+    image: myllm_azure
+    ports:
+      - 127.0.0.1:10000:8888
+    working_dir: /home/jovyan/work
+    volumes:
+      - ./:/home/jovyan/work
+     
